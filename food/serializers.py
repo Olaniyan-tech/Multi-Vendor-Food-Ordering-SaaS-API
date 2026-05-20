@@ -333,7 +333,7 @@ class SubscriptionSerializer(serializers.ModelSerializer):
         )
 
     def get_is_valid(self, obj):
-        return obj.is_valid
+        return obj.is_valid()
 
 
 class SubscriptionHistorySerializer(serializers.ModelSerializer):
