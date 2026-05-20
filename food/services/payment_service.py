@@ -157,7 +157,7 @@ def initialize_vendor_subscription_payment(vendor, plan):
             "vendor_id": vendor.id,
             "plan_id": plan.id,
             "plan_name": plan.name,
-            "restaurant_name": vendor.business_name,
+            "business_name": vendor.business_name,
         }
     }
 

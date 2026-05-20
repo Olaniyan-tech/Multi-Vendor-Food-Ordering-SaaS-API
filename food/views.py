@@ -1421,7 +1421,7 @@ class InitializeVendorSubscriptionPaymentView(APIView):
             )
         
         logger.info(
-            f"Vendor {request.user.vendor.restaurant_name} "
+            f"Vendor {request.user.vendor.business_name} "
             f"initialized payment for {plan.name} plan"
         )
 
